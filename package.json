@@ -1,4 +1,19 @@
 {
   "name": "my-strapi",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build"
+  },
+  "dependencies": {
+    "@strapi/strapi": "4.24.2",
+    "@strapi/plugin-i18n": "4.24.2",
+    "@strapi/plugin-users-permissions": "4.24.2"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x",
+    "npm": ">=8.0.0"
+  }
 }
